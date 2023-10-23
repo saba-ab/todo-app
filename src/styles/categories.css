@@ -1,0 +1,24 @@
+.categories {
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  width: 20%;
+  min-width: 200px;
+  border-right: 1px solid #d8d8d8;
+  gap: 20px;
+  text-align: start;
+}
+.categories p {
+  border: none;
+  color: #525252;
+  font-family: Lato;
+  font-size: 22px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: #fff;
+  cursor: pointer;
+}
+.categories p:first-child {
+  margin-top: 140px;
+}

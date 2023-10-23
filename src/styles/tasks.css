@@ -1,0 +1,22 @@
+.tasks {
+  display: flex;
+  flex-direction: column;
+  padding: 30px;
+  gap: 20px;
+}
+.tasks input {
+  width: 621px;
+  height: 47px;
+  background-color: #f3f3f3;
+  border-radius: 8px;
+  border: none;
+  padding: 0 20px;
+}
+.tasks input::placeholder {
+  color: #b5b5b5;
+  font-family: Lato;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
